@@ -17,6 +17,8 @@ msg['To'] = 'smokeym624@gmail.com'
 msg['Subject'] = ('TEST EMAIL SERVER') 
 
 # This is the body of the email
+
+# use this way if setup in the same folder
 #msg.set_content(html.substitute({'name': 'Tintin'}), 'html')
 msg.set_content('WTF')
 
